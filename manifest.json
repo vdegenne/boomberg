@@ -1,0 +1,17 @@
+{
+  "name": "Boom!Berg.",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://www.bloomberg.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "scripts": []
+  },
+  "web_accessible_resources": [],
+  "permissions": [
+  ]
+}
